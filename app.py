@@ -8,7 +8,7 @@ while True:
 		print('Could not access the camera')
 		break
 	cv2.imshow('frame', frame)
-	k = cv2.waitkey(1)
+	k = cv2.waitKey(1)
 	if k == ord('q'):
 		break
 
